@@ -15,10 +15,10 @@ function App() {
       {/* Navigation */}
       <nav className="flex items-center justify-between px-8 py-5 z-10 relative">
         <div className="flex items-center gap-2">
-          <Sparkles size={18} className="text-white" strokeWidth={1.5} />
-          <span className="text-white text-base font-medium">GroundAI</span>
+          <Sparkles size={26} className="text-white" strokeWidth={1.5} />
+          <span className="text-white text-2xl font-medium">GroundAI</span>
         </div>
-        <div className="flex items-center gap-6 bg-[#2a2a2a]/40 backdrop-blur-xl border border-white/10 rounded-xl pl-6 pr-1.5 py-1.5">
+        <div className="flex items-center gap-6 bg-[#2a2a2a]/40 backdrop-blur-xl border border-white/10 rounded-xl pl-6 pr-1.5 py-2">
           <a href="#" className="text-white/80 text-[13px] font-medium hover:text-white transition-colors">Product</a>
           <a href="#" className="text-white/80 text-[13px] font-medium hover:text-white transition-colors">Platfrom</a>
           <a href="#" className="text-white/80 text-[13px] font-medium hover:text-white transition-colors">Customers</a>
@@ -49,8 +49,8 @@ function App() {
       </div>
 
       {/* Bottom Row */}
-      <div className="flex items-end justify-between px-8 pb-10 relative z-10">
-        <div className="text-white/70 text-xs text-xl">
+      <div className="flex items-end justify-between px-8 pb-8 relative z-10">
+        <div className="text-white/70 text-lg">
           <p>It helps you imagine, plan, and refine spaces <br /> through natural conversations.</p>
           <p>From choosing colors and layouts to suggesting <br /> furniture and décor, it adapts to your taste.</p>
         </div>
